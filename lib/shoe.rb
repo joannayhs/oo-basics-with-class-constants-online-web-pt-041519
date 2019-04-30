@@ -10,8 +10,9 @@ class Shoe
     @brand = brand
     BRANDS.each do |shoe|
       if brand != shoe
-        BRANDS << brand 
         binding.pry
+        BRANDS << brand 
+        
       end 
     end 
   end
